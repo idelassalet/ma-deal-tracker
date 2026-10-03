@@ -68,9 +68,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 45,
     rationale:
-      "Buy a first-party content portfolio (Call of Duty, Candy Crush, World of Warcraft) to anchor Game Pass subscriptions and give Microsoft a mobile gaming foothold it had never built organically.",
+      "Microsoft wanted Activision's franchises to feed Game Pass and to finally get into mobile gaming, which it had never managed to build on its own. Owning the content makes the subscription service much harder for Sony to copy.",
     outcome:
-      "The largest gaming deal ever took 21 months to clear. The UK CMA initially blocked it and the US FTC sued to stop it; Microsoft restructured by divesting cloud-streaming rights for Activision titles to Ubisoft, which satisfied the CMA on a re-filed deal.",
+      "Took 21 months to close. The UK regulator blocked it first and the FTC sued to stop it, so Microsoft sold the cloud streaming rights for Activision games to Ubisoft and refiled. The restructured version cleared in October 2023.",
     source: "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard/",
   },
   {
@@ -85,10 +85,10 @@ export const deals: Deal[] = [
     status: "Completed",
     consideration: "Cash & stock",
     rationale:
-      "Pivot Broadcom from semiconductors toward high-margin infrastructure software, bolting VMware's virtualization franchise onto an existing enterprise software roll-up strategy.",
+      "Broadcom has been buying enterprise software for years to depend less on chip cycles. VMware came with a big base of corporate customers paying recurring licence fees.",
     outcome:
-      "Cleared globally after an 18-month review. Post-close licensing changes — moving VMware from perpetual licenses to subscription bundles — drew sharp customer and European regulatory criticism, a reminder that antitrust clearance does not settle buyer-power concerns.",
-    source: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+      "Cleared after about 18 months of reviews. Once it closed, Broadcom moved customers off perpetual licences onto subscriptions and raised prices, which drew complaints from customers and attention from EU regulators. Getting antitrust approval did not stop any of that.",
+    source: "https://news.vmware.com/releases/broadcom-completes-vmware-acquisition",
   },
   {
     id: "nvidia-arm",
@@ -102,9 +102,9 @@ export const deals: Deal[] = [
     status: "Terminated",
     consideration: "Cash & stock",
     rationale:
-      "Own the CPU instruction-set architecture underpinning nearly all mobile and embedded computing, and pair it with Nvidia's accelerator roadmap for data-center AI.",
+      "Nvidia wanted to own the chip architecture behind almost every phone and embedded device, and pair it with its data centre business.",
     outcome:
-      "Abandoned after 17 months. The US FTC sued and UK and EU regulators opened in-depth reviews, all centred on the same theory: Arm licenses to Nvidia's own competitors, so a Nvidia-owned Arm could foreclose them. SoftBank kept a $1.25bn break fee and took Arm public instead.",
+      "Dropped after 17 months. The FTC sued and UK and EU regulators opened deeper investigations, all worried about the same thing: Arm licenses its designs to Nvidia's competitors, so Nvidia owning Arm could cut them off. SoftBank kept a $1.25bn break fee and listed Arm on Nasdaq instead.",
     source: "https://nvidianews.nvidia.com/news/nvidia-and-softbank-group-announce-termination-of-nvidias-acquisition-of-arm-limited",
   },
   {
@@ -120,9 +120,9 @@ export const deals: Deal[] = [
     consideration: "All stock",
     premiumPct: 25,
     rationale:
-      "Add FPGAs and adaptive computing to a CPU/GPU portfolio, widening AMD's addressable market in data center, networking and automotive against Intel.",
+      "AMD added FPGAs to its CPU and GPU range to sell more into data centres, networking and cars, and to compete with Intel across a wider product set.",
     outcome:
-      "An all-stock deal announced at $35bn closed at roughly $49bn in value as AMD's share price rose through the review — a textbook illustration of why stock consideration shifts price risk onto the seller's shareholders.",
+      "Announced at $35bn, but AMD paid in its own shares and the stock rose during the review, so it was worth roughly $49bn at closing. A clear example of how an all-stock deal leaves the seller carrying price risk until the deal completes.",
     source: "https://ir.amd.com/news-events/press-releases/detail/1017/amd-completes-acquisition-of-xilinx",
   },
   {
@@ -138,10 +138,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 63,
     rationale:
-      "Buy a credible hybrid-cloud platform (OpenShift, RHEL) to reposition a declining legacy IT services business, selling portability across AWS, Azure and on-premise estates.",
+      "IBM's legacy services business was shrinking. Red Hat gave it a hybrid cloud platform it could sell to companies running workloads across AWS, Azure and their own data centres.",
     outcome:
-      "IBM's largest acquisition, funded largely with debt, and paid at one of the richest premiums in large-cap software. Red Hat was kept operationally separate to preserve its open-source community standing.",
-    source: "https://newsroom.ibm.com/2019-07-09-IBM-Closes-Landmark-Acquisition-of-Red-Hat-for-34-Billion-Defines-Open-Hybrid-Cloud-Future",
+      "IBM's largest acquisition, funded mostly with debt, at a 63% premium. Red Hat was left to operate separately so its open source community would not turn on it.",
+    source: "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat",
   },
   {
     id: "salesforce-slack",
@@ -156,10 +156,10 @@ export const deals: Deal[] = [
     consideration: "Cash & stock",
     premiumPct: 54,
     rationale:
-      "Make Slack the interface layer for Customer 360 and blunt Microsoft Teams, which had been bundled into Office 365 and was taking the collaboration market.",
+      "Salesforce bought Slack to sit in the middle of how its customers work every day, and to answer Microsoft bundling Teams into Office 365 for free.",
     outcome:
-      "Closed quickly and cleanly, but became the focal point of the activist campaign that followed: investors argued Salesforce had overpaid for growth, and the company subsequently committed to margin discipline and buybacks.",
-    source: "https://www.salesforce.com/news/press-releases/2021/07/21/salesforce-completes-acquisition-of-slack/",
+      "Closed in about seven months with no regulatory trouble. The problem was with investors instead: activists argued Salesforce had paid too much for growth, and the company shifted to margin targets and buybacks soon after.",
+    source: "https://slack.com/blog/news/salesforce-completes-acquisition-of-slack",
   },
   {
     id: "microsoft-linkedin",
@@ -174,9 +174,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 50,
     rationale:
-      "Connect the world's professional graph to Office and Dynamics — identity and relationship data that Microsoft could not replicate, feeding recruiting, sales and learning products.",
+      "LinkedIn's professional network and the data behind it could be plugged into Office and Dynamics, and it was not something Microsoft could realistically build itself.",
     outcome:
-      "Cleared in under six months with EU commitments on interoperability. Widely judged a success: LinkedIn revenue more than quadrupled post-close while operating semi-independently.",
+      "Cleared in under six months after Microsoft gave the EU commitments on interoperability. Usually counted as one of its better deals: LinkedIn revenue grew several times over while it kept operating semi-independently.",
     source: "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
   },
   {
@@ -192,9 +192,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 23,
     rationale:
-      "Acquire clinical speech recognition and ambient documentation embedded in US hospital workflows, giving Azure a vertical AI wedge into healthcare.",
+      "Nuance's speech recognition was already running in US hospitals for clinical notes, so it gave Microsoft a way into healthcare software rather than just selling cloud capacity.",
     outcome:
-      "Cleared in the US quickly; the UK CMA ran a Phase 1 review before unconditional clearance. The Nuance asset later became the base for Microsoft's DAX clinical AI products.",
+      "Cleared quickly in the US; the UK regulator reviewed it for a few months and approved it unconditionally. Nuance's technology became the base for Microsoft's clinical AI products.",
     source: "https://news.microsoft.com/2021/04/12/microsoft-accelerates-industry-cloud-strategy-for-healthcare-with-the-acquisition-of-nuance/",
   },
   {
@@ -210,10 +210,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 30,
     rationale:
-      "Take a cash-generative but slow-growing virtualization business private, merge it with Vista's TIBCO, and restructure away from public-market growth expectations.",
+      "A sponsor deal, not a strategic one. Citrix threw off steady cash but was barely growing, so Vista and Elliott took it private at $104 a share and merged it with Vista's TIBCO.",
     outcome:
-      "One of the last mega-LBOs financed before rates moved: banks were left holding roughly $15bn of debt they could not syndicate and sold it at a steep discount, effectively closing the large-LBO debt window for a year.",
-    source: "https://www.citrix.com/news/announcements/sep-2022/citrix-and-tibco-complete-merger.html",
+      "The financing is the part worth knowing. The banks committed around $15bn of debt before rates moved, then could not syndicate it and sold at a steep loss. Large LBOs were effectively frozen for about a year afterwards.",
+    source: "https://www.cloud.com/news/press-release/2022/vista-equity-partners-and-evergreen-coast-capital-complete-transaction-to-acquire-citrix-and-combine-with-tibco",
   },
   {
     id: "musk-twitter",
@@ -228,10 +228,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 38,
     rationale:
-      "A single-buyer take-private premised on relaxing content moderation and rebuilding the product around subscriptions rather than advertising.",
+      "A take-private by a single buyer, funded with his own equity plus about $13bn of debt, on the idea of loosening moderation and shifting revenue from advertising to subscriptions.",
     outcome:
-      "The canonical deal-certainty case. Musk signed without customary due diligence, then tried to terminate over spam-account disclosures; Twitter sued in Delaware to enforce specific performance and he closed on the original terms days before trial. Roughly $13bn of acquisition debt stayed on the company.",
-    source: "https://www.sec.gov/Archives/edgar/data/1418091/000119312522120461/d310843dex21.htm",
+      "The deal certainty case everyone uses. Musk signed without normal due diligence, then tried to walk away over Twitter's spam account numbers. Twitter sued in Delaware for specific performance and he closed on the original terms days before trial.",
+    source: "https://www.sec.gov/Archives/edgar/data/1418091/000119312522120461/d310843d8k.htm",
   },
   {
     id: "cvs-aetna",
@@ -246,10 +246,10 @@ export const deals: Deal[] = [
     consideration: "Cash & stock",
     premiumPct: 29,
     rationale:
-      "Integrate an insurer with a pharmacy and PBM to control the full cost of care, partly as a defensive response to Amazon's entry into pharmacy distribution.",
+      "Vertical deal: put an insurer, a PBM and a pharmacy chain under one roof so CVS controls more of what it costs to treat a patient. Partly defensive, since Amazon was moving into pharmacy.",
     outcome:
-      "Cleared with a divestiture of Aetna's Medicare Part D business, but the presiding judge took the unusual step of reopening the Tunney Act review after closing before ultimately approving the consent decree.",
-    source: "https://www.cvshealth.com/news/company-news/cvs-health-completes-acquisition-of-aetna-marking-the-start-of-transforming-the-consumer-health-experience.html",
+      "Approved once CVS agreed to sell Aetna's Medicare Part D business. Unusually, the judge reopened the review after the deal had already closed before finally signing off on the settlement.",
+    source: "https://investors.cvshealth.com/news/news-details/2018/CVS-Health-Completes-Acquisition-of-Aetna-Marking-the-Start-of-Transforming-the-Consumer-Health-Experience/default.aspx",
   },
   {
     id: "cigna-express-scripts",
@@ -264,10 +264,10 @@ export const deals: Deal[] = [
     consideration: "Cash & stock",
     premiumPct: 31,
     rationale:
-      "The mirror image of CVS–Aetna: an insurer buying the largest independent pharmacy benefit manager to internalise drug-pricing margin.",
+      "The same logic as CVS-Aetna from the other side: an insurer buying the biggest independent PBM so the margin on drug pricing stays inside the group.",
     outcome:
-      "Cleared by the DOJ without divestitures. Within a year the two deals had effectively eliminated the independent PBM model, which is now the standing example of vertical consolidation reshaping an entire industry structure.",
-    source: "https://newsroom.cigna.com/cigna-completes-combination-with-express-scripts",
+      "The DOJ cleared it with no divestitures at all. Within a year the two deals had taken the large independent PBMs out of the market, which is why these two are normally taught together.",
+    source: "https://newsroom.thecignagroup.com/Cigna-Completes-Combination-with-Express-Scripts-Establishing-a-Blueprint-to-Transform-the-Health-Care-System",
   },
   {
     id: "pfizer-seagen",
@@ -282,9 +282,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 33,
     rationale:
-      "Redeploy COVID-era cash into antibody-drug conjugates to refill an oncology pipeline facing a well-telegraphed patent cliff.",
+      "Pfizer put its Covid cash into antibody-drug conjugates to refill the oncology pipeline before several products lose patent protection.",
     outcome:
-      "Funded with roughly $31bn of new debt. The FTC closed its review without conditions — the pipelines were complementary rather than overlapping, which is the standard path to clearance in large pharma deals.",
+      "Funded with roughly $31bn of new debt. The FTC closed its review without conditions because the two pipelines barely overlapped, which is the usual route through review for big pharma deals.",
     source: "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-invests-43-billion-battle-cancer",
   },
   {
@@ -300,9 +300,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 20,
     rationale:
-      "Acquire rare-disease franchises — principally Tepezza for thyroid eye disease — with durable pricing and no near-term generic exposure.",
+      "Amgen bought rare disease drugs, mainly Tepezza, which hold their pricing and have no generic competition coming soon.",
     outcome:
-      "The FTC sued on a novel bundling theory: that Amgen could leverage its blockbuster portfolio in rebate negotiations to protect Horizon's drugs. It settled with a behavioural consent order barring that conduct, the first major test of that theory in pharma.",
+      "The FTC sued on a new theory: that Amgen could use rebates on its existing blockbusters to pressure insurers into covering Horizon's drugs. It settled with a consent order banning that conduct rather than blocking the deal.",
     source: "https://www.amgen.com/newsroom/press-releases/2023/10/amgen-completes-acquisition-of-horizon-therapeutics-plc",
   },
   {
@@ -318,9 +318,9 @@ export const deals: Deal[] = [
     consideration: "All stock",
     premiumPct: 18,
     rationale:
-      "Consolidate contiguous Permian Basin acreage to more than double Exxon's output there and apply its development model to Pioneer's inventory — scale economics, not reserve replacement at any price.",
+      "Pioneer's acreage sits next to Exxon's in the Permian, so Exxon more than doubles its production there and can drill it with its own methods. The case rests on cost per barrel, not on buying reserves at any price.",
     outcome:
-      "Cleared after the FTC required that Pioneer's former CEO be barred from the combined board over alleged collusive communications with OPEC — a conduct remedy aimed at an individual rather than the structure of the deal.",
+      "Cleared after the FTC insisted that Pioneer's former CEO not take a seat on the combined board, over messages regulators said amounted to coordinating with OPEC. The remedy went after a person rather than the structure of the deal.",
     source: "https://corporate.exxonmobil.com/news/news-releases/2024/0503_exxonmobil-completes-acquisition-of-pioneer-natural-resources",
   },
   {
@@ -335,10 +335,10 @@ export const deals: Deal[] = [
     status: "Completed",
     consideration: "All stock",
     rationale:
-      "Buy into the Stabroek block offshore Guyana — among the highest-return oil discoveries of the era — to extend Chevron's production growth runway into the 2030s.",
+      "Chevron was after Hess's stake in the Stabroek block in Guyana, one of the best oil finds of the last decade, to keep production growing into the 2030s.",
     outcome:
-      "Delayed almost two years not by antitrust but by contract: ExxonMobil and CNOOC claimed a right of first refusal over Hess's Guyana stake. An ICC arbitration panel rejected the claim in July 2025 and the deal closed days later — a reminder that JV consent rights can be a harder gate than regulators.",
-    source: "https://www.chevron.com/newsroom/2025/q3/chevron-completes-acquisition-of-hess",
+      "Took almost two years, and not because of antitrust. Exxon and CNOOC, Hess's partners in the block, claimed a right of first refusal over the stake. An arbitration panel rejected that in July 2025 and the deal closed days later. Partner consent rights can be a harder gate than regulators.",
+    source: "https://www.chevron.com/newsroom/2025/q3/chevron-completes-acquisition-of-hess-corporation",
   },
   {
     id: "lvmh-tiffany",
@@ -353,10 +353,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 32,
     rationale:
-      "Add a hard-luxury American brand to a portfolio weighted toward fashion and leather goods, and apply LVMH's retail and marketing machine to an under-managed jewellery house.",
+      "LVMH is strong in fashion and leather goods and weaker in jewellery. Tiffany was a well-known brand it thought it could run better.",
     outcome:
-      "Renegotiated, not abandoned. LVMH sought to exit during the pandemic, Tiffany sued in Delaware, and the parties settled on a reduced price of $131.50 from $135 per share — a rare instance of a buyer extracting a real price cut without an explicit pandemic carve-out in the MAC clause.",
-    source: "https://www.lvmh.com/en/publications/lvmh-completes-the-acquisition-of-tiffany-co",
+      "LVMH tried to get out during the pandemic and Tiffany sued in Delaware. They settled at $131.50 a share instead of $135, cutting around $400m off the price. Rare case of a buyer getting a genuine discount without a pandemic carve-out in the contract.",
+    source: "https://www.sec.gov/Archives/edgar/data/98246/000119312521004213/d301758dex991.htm",
   },
   {
     id: "amazon-wholefoods",
@@ -371,9 +371,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 27,
     rationale:
-      "Acquire physical grocery footprint, cold-chain logistics and a trusted food brand in one step, after years of failing to crack grocery with AmazonFresh alone.",
+      "Amazon had spent years failing to crack groceries with AmazonFresh. Whole Foods gave it stores, cold chain logistics and a trusted food brand in one move.",
     outcome:
-      "Cleared in ten weeks with no conditions — in hindsight the most-cited example of permissive merger review in tech, and a major input into the subsequent push for structural antitrust reform.",
+      "Cleared in ten weeks with no conditions. It is now one of the most cited examples of how relaxed merger review was towards big tech, and fed directly into the antitrust reform debate that followed.",
     source: "https://press.aboutamazon.com/2017/8/amazon-and-whole-foods-market-announce-acquisition-to-close-this-monday-will-work-together-to-make-high-quality-natural-and-organic-food-affordable-for-everyone",
   },
   {
@@ -389,10 +389,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 33,
     rationale:
-      "Combine the two largest traditional US supermarket chains to match the purchasing scale of Walmart, Costco and Amazon.",
+      "The two biggest traditional US supermarket chains combining so they could buy on terms closer to Walmart, Costco and Amazon.",
     outcome:
-      "Blocked. Kroger proposed divesting 579 stores to C&S Wholesale Grocers, but federal and state courts found the remedy inadequate — the buyer lacked the scale to compete — and granted injunctions. Albertsons terminated the next day and sued Kroger over its efforts to obtain clearance.",
-    source: "https://www.ftc.gov/news-events/news/press-releases/2024/12/statement-regarding-kroger-albertsons-abandoning-proposed-merger",
+      "Blocked. Kroger offered to sell 579 stores to C&S Wholesale Grocers, but the courts decided that buyer was too small to replace the competition being lost, and granted injunctions. Albertsons terminated the next day and sued Kroger over how it had run the clearance process. A good example of a remedy package failing.",
+    source: "https://www.ftc.gov/news-events/news/press-releases/2024/12/statement-ftc-victory-securing-halt-kroger-albertsons-grocery-merger",
   },
   {
     id: "disney-fox",
@@ -406,10 +406,10 @@ export const deals: Deal[] = [
     status: "Completed",
     consideration: "Cash & stock",
     rationale:
-      "Assemble the content library and Hulu control needed to launch Disney+ directly against Netflix, accepting near-term earnings dilution for a direct consumer relationship.",
+      "Disney needed content and control of Hulu to launch Disney+ against Netflix, and was willing to take the hit to earnings to own the customer relationship.",
     outcome:
-      "A live auction: Comcast counterbid, forcing Disney to raise from $52.4bn to $71.3bn and add a cash component. Cleared after divesting the Fox regional sports networks. Disney later wrote down significant value, and the price is the standard case study in competitive-bidding overpayment.",
-    source: "https://thewaltdisneycompany.com/disney-acquires-21st-century-fox/",
+      "Comcast bid against it, which pushed Disney from $52.4bn up to $71.3bn and forced it to add cash to the offer. It cleared after selling Fox's regional sports networks. Disney later wrote down a lot of the value, so this one usually comes up as overpaying in a contested auction.",
+    source: "https://thewaltdisneycompany.com/press-releases/disney-21st-century-fox-acquisition-closing-date/",
   },
   {
     id: "amazon-mgm",
@@ -423,10 +423,10 @@ export const deals: Deal[] = [
     status: "Completed",
     consideration: "All cash",
     rationale:
-      "Buy a 4,000-title catalogue and the James Bond franchise as content supply for Prime Video, where the strategic return is Prime retention rather than studio profit.",
+      "Amazon bought a library of around 4,000 films plus James Bond as content for Prime Video. The return shows up in Prime retention, not in the studio making money on its own.",
     outcome:
-      "Closed after the EU cleared it unconditionally and the FTC, deadlocked, let the waiting period expire without action. Amazon later acquired creative control over the Bond franchise, which it had not obtained at close.",
-    source: "https://press.aboutamazon.com/2022/3/amazon-and-mgm-join-forces",
+      "The EU cleared it unconditionally and the FTC, split internally, let the waiting period expire. Amazon did not get creative control of the Bond franchise at closing and had to negotiate for it separately years later.",
+    source: "https://www.aboutamazon.com/news/entertainment/mgm-joins-prime-video-and-amazon-studios",
   },
   {
     id: "att-timewarner",
@@ -441,10 +441,10 @@ export const deals: Deal[] = [
     consideration: "Cash & stock",
     premiumPct: 36,
     rationale:
-      "Pair distribution (wireless and DirecTV) with premium content (HBO, Warner Bros., Turner) so AT&T could monetise its subscriber base with owned programming and advertising data.",
+      "AT&T wanted to put its distribution together with HBO, Warner Bros. and Turner so it could sell its own programming, and advertising against its subscriber data.",
     outcome:
-      "Won in court and lost in practice. The DOJ's rare vertical-merger challenge failed at trial and on appeal, but AT&T spun Warner off to Discovery in 2022 for far less than it paid — the standard example of a deal that cleared antitrust review and still destroyed value.",
-    source: "https://about.att.com/story/att_completes_acquisition_of_time_warner_inc.html",
+      "The DOJ challenged it as a vertical merger and lost at trial and again on appeal. AT&T still spun the business off to Discovery in 2022 for far less than it paid. Winning the antitrust case and making money turned out to be different questions.",
+    source: "https://www.sec.gov/Archives/edgar/data/0000732717/000073271718000055/ex99_1.htm",
   },
   {
     id: "capital-one-discover",
@@ -459,9 +459,9 @@ export const deals: Deal[] = [
     consideration: "All stock",
     premiumPct: 27,
     rationale:
-      "Acquire a payments network, not just a card book — owning rails lets Capital One capture interchange and reduce dependence on Visa and Mastercard.",
+      "Capital One was buying a payments network, not just more card balances. Owning the rails means keeping interchange instead of handing it to Visa and Mastercard.",
     outcome:
-      "Required Federal Reserve and OCC approval on top of antitrust review, and drew heavy political opposition on consumer-credit concentration. Approved in April 2025 and closed the following month, creating the largest US credit-card issuer by balances.",
+      "Needed Federal Reserve and OCC approval on top of antitrust clearance, and attracted a lot of political opposition over concentration in consumer credit. Approved in April 2025 and closed a month later, making Capital One the largest US card issuer by balances.",
     source: "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
   },
   {
@@ -477,9 +477,9 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 29,
     rationale:
-      "Deploy idle cash into an insurance and reinsurance underwriter whose float Berkshire can reinvest — the classic conglomerate logic of buying capital-generating businesses outright.",
+      "Standard Berkshire logic: put spare cash into an insurer whose float Berkshire can then invest.",
     outcome:
-      "Negotiated directly with no auction and no bankers on Berkshire's side; Buffett explicitly refused to pay the seller's advisory fee out of the price. Cleared without issue.",
+      "Negotiated directly, with no auction and no bank advising Berkshire. Buffett publicly refused to pay the seller's advisory fee out of the price. Cleared without any issues.",
     source: "https://www.berkshirehathaway.com/news/oct1922.pdf",
   },
   {
@@ -494,10 +494,10 @@ export const deals: Deal[] = [
     status: "Terminated",
     consideration: "All cash",
     rationale:
-      "Acquire aircraft and pilots at speed to reach the scale needed to compete with the big four US carriers, having lost the organic growth race post-pandemic.",
+      "JetBlue could not grow fast enough on its own, so it tried to buy aircraft, slots and pilots by acquiring Spirit.",
     outcome:
-      "Blocked. JetBlue won the bidding war against Frontier, then lost in court: the judge accepted the DOJ's case that removing Spirit would eliminate the ultra-low-cost discipline that constrains fares. JetBlue paid Spirit a $69m termination fee and Spirit filed for Chapter 11 later that year.",
-    source: "https://www.justice.gov/opa/pr/jetblue-abandons-unlawful-merger-spirit-airlines",
+      "Blocked. JetBlue outbid Frontier and then lost in court: the judge accepted that taking Spirit out would remove the ultra-low-cost pressure that holds fares down. JetBlue paid a $69m termination fee and Spirit filed for Chapter 11 later that year.",
+    source: "https://www.justice.gov/archives/opa/pr/justice-department-statements-jetblue-terminating-acquisition-spirit-airlines",
   },
   {
     id: "raytheon-utc",
@@ -511,9 +511,9 @@ export const deals: Deal[] = [
     status: "Completed",
     consideration: "All stock",
     rationale:
-      "A merger of equals balancing Raytheon's defence franchise against UTC's commercial aerospace exposure, with the stated aim of smoothing the defence-budget cycle.",
+      "A merger of equals meant to balance Raytheon's defence revenue against UTC's commercial aerospace exposure, so the combined company rides the defence budget cycle less.",
     outcome:
-      "Structured as an all-stock merger with no premium and no cash, conditioned on UTC first spinning off Otis and Carrier. Closed into the depth of the pandemic — the commercial-aerospace half of the hedge collapsed within weeks of completion.",
+      "All stock, no premium, no cash, and conditional on UTC first spinning off Otis and Carrier. It closed in April 2020, so the commercial aerospace half of the hedge collapsed within weeks of completion.",
     source: "https://www.rtx.com/news/news-center/2020/04/03/raytheon-company-and-united-technologies-complete-merger-of-equals-transaction",
   },
   {
@@ -529,10 +529,10 @@ export const deals: Deal[] = [
     consideration: "All cash",
     premiumPct: 44,
     rationale:
-      "Combine crop protection chemicals with seeds and traits to build an integrated agricultural platform, in step with the Dow–DuPont and ChemChina–Syngenta consolidation wave.",
+      "Bayer put crop chemicals together with seeds and traits to build an integrated agriculture business, following Dow-DuPont and ChemChina-Syngenta.",
     outcome:
-      "The reference case for inherited liability. Cleared after roughly $9bn of divestitures to BASF, but Bayer immediately absorbed the Roundup glyphosate litigation — tens of thousands of claims and well over $10bn in settlements — and its market capitalisation fell below the purchase price.",
-    source: "https://www.bayer.com/en/media/bayer-closes-monsanto-acquisition",
+      "Cleared after around $9bn of divestitures to BASF, but Bayer also inherited the Roundup litigation: tens of thousands of claims and well over $10bn in settlements. Its market value fell below what it paid for Monsanto. The usual example of due diligence on legal liabilities.",
+    source: "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/",
   },
 ];
 

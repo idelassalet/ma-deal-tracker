@@ -6,13 +6,13 @@ export default function Home() {
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
       <section className="mb-8 max-w-3xl">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-          {deals.length} deals that defined the last decade of M&amp;A
+          {deals.length} M&amp;A deals, 2016–2024
         </h1>
         <p className="mt-3 text-ink-secondary">
-          Each entry records what was paid, how it was paid for, the strategic
-          logic the acquirer put forward, and what actually happened between
-          signing and closing — including the three deals that never closed at
-          all. Filter the set and the figures, charts and table below all follow.
+          For each one: what was paid, how it was paid for, why the acquirer
+          said it made sense, and what happened between signing and closing.
+          Three of them never closed. Changing the filters updates the figures,
+          the charts and the table together.
         </p>
       </section>
       <DealExplorer />
